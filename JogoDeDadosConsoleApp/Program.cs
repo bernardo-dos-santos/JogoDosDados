@@ -32,7 +32,7 @@
                 Console.WriteLine($"O Numero sorteado foi {numeroJogador}");
                 posicaoJogador = posicaoJogador + numeroJogador;
 
-                Console.WriteLine($"Sua Posição é  {posicaoJogador} de {linhaDeChegada}");
+                Console.WriteLine($"Sua Posição é  {posicaoJogador} de {linhaDeChegada} ");
 
 
 
