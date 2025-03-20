@@ -1,5 +1,5 @@
 # Jogo Dos Dados
-![]()
+![](https://i.imgur.com/uCL3Yce.gif)
 O jogo dos dados é uma corrida entre o jogador e o computador e seu objetivo é chegar até a casa 30 antes do adversário
 
 ## Detalhes
