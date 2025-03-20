@@ -12,7 +12,6 @@ namespace JogoDeDadosConsoleApp
                 posicao = posicao + numeroGerado;
                 return posicao;
             }
-
            public  static int GerarNumero()
             {
                 Random geradorNumeros = new Random();
@@ -20,9 +19,6 @@ namespace JogoDeDadosConsoleApp
                 int numero = geradorNumeros.Next(1, 7);
                 return numero;
             }
-
-
-
 
         }
         static void Main(string[] args)
@@ -71,7 +67,6 @@ namespace JogoDeDadosConsoleApp
             }
 
         }
-
         static void ExibirCabecalho()
         {
             Console.Clear();
