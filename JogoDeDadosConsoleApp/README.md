@@ -10,7 +10,7 @@ O jogo dos dados é uma corrida entre o jogador e o computador e seu objetivo é c
 
 **Bônus** - Nas casas 5, 10, 15 e 20 há um bônus de aumento de 3 casas, assim deixando o jogo mais empolgantes
 
-**Ônus** - Assim como temos o bônus, o ônus está presente nas casas 8, 13, 18 e 21, diminuindo 2 casas
+**Ônus** - Assim como temos o bônus, o ônus está presente nas casas 9, 14, 19 e 21, diminuindo 2 casas
 
 ## Requisitos 
 

@@ -2,25 +2,8 @@
 
 namespace JogoDeDadosConsoleApp
 {
-    internal class Program
+    internal partial class Program
     {
-
-        public class JogoDosDados
-        {
-           public  static int ArmazenarPosicao(int posicao, int numeroGerado)
-            {
-                posicao = posicao + numeroGerado;
-                return posicao;
-            }
-           public  static int GerarNumero()
-            {
-                Random geradorNumeros = new Random();
-
-                int numero = geradorNumeros.Next(1, 7);
-                return numero;
-            }
-
-        }
         static void Main(string[] args)
         {
             
@@ -79,7 +62,7 @@ namespace JogoDeDadosConsoleApp
             Console.WriteLine("O jogo será uma corrida entre você e o computador");
             Console.WriteLine("Seu Objetivo é chegar na casa 30");
             Console.WriteLine("Nas Casas 5, 10 ,15 e 20, você terá um bônus de +3 casas");
-            Console.WriteLine("Nas Casas 8, 13 ,18 e 21, você terá um ônus de -2 casas");
+            Console.WriteLine("Nas Casas 9, 14 ,19 e 21, você terá um ônus de -2 casas");
             Console.WriteLine("---------------------------------------------------------------------------");
         }
         static int Jogar(bool jogador)
@@ -175,7 +158,7 @@ namespace JogoDeDadosConsoleApp
                     Console.WriteLine($"Agora sua posição é {posicao}");
                     Console.WriteLine("---------------------------------------------------------------------------");;
 
-                } else if (posicao == 8 || posicao == 13 || posicao == 18 || posicao == 21)
+                } else if (posicao == 9 || posicao == 14 || posicao == 19 || posicao == 21)
                 {
                     Console.WriteLine("---------------------------------------------------------------------------");
                     Console.WriteLine($"Que azar, você ganhou um ônus de 2 casas devido estar na casa {posicao}");
@@ -197,7 +180,7 @@ namespace JogoDeDadosConsoleApp
                     Console.WriteLine("---------------------------------------------------------------------------");
 
                 }
-                else if (posicao == 8 || posicao == 13 || posicao == 18 || posicao == 21)
+                else if (posicao == 9 || posicao == 14 || posicao == 19 || posicao == 21)
                 {
                     Console.WriteLine("---------------------------------------------------------------------------");
                     Console.WriteLine($"Que sorte, o computador ganhou um ônus de 2 casas devido estar na casa {posicao}");
